@@ -29,53 +29,6 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-
-.header-content {
-  max-width: 1170px;
-}
-.header-logo {
-  float: none;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: left;
-  width: 14.66%;
-}
-.header-nav-primary {
-  float: none;
-  vertical-align: middle;
-}
-.account-cart-primary {
-  float: none;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: right;
-  width: 25%;
-}
-
-.header-search-primary-container{
-  background: #54b548;
-  width: 100%;
-  position:relative;
-  padding: 5px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.header-search-secondary-container{
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-.header-search-position{
-  margin-left: 10%;
-  width: 55%;
-  position: relative;
-}
-
-
-
-
 article,
 aside,
 details,
@@ -1339,9 +1292,9 @@ a.button:hover {
 .main-container,
 .footer-container {
   position: relative;
-  /*max-width: 1260px;
+  max-width: 1260px;
   margin: 0 auto;
-  padding: 15px;*/
+  padding: 15px;
 }
 .main-container:after,
 .footer-container:after {
@@ -1353,7 +1306,7 @@ a.button:hover {
 @media only screen and (min-width: 480px) {
   .main-container,
   .footer-container {
-    /*padding: 30px;*/
+    padding: 30px;
   }
 }
 .footer-container {
@@ -1546,22 +1499,6 @@ a.button:hover {
     margin: 0 auto;
     padding: 0 30px;
   }
-  /*#navigation-large{
-    display: table-cell;
-    background: black;
-  }
-  #navigation-small{
-  }*/
-}
-/*@media only screen and (max-width: 770px){
-  #navigation-large{
-    display: none;
-    background: green;
-  }
-  #navigation-small{
-    display: block;
-    background: green;
-  }*/
 }
 /* -------------------------------------------- *
  * Global Site Notice
@@ -3227,9 +3164,9 @@ body {
  * ============================================ */
 @media only screen and (min-width: 771px) {
   .page-header {
-    /*max-width: 1260px;
+    max-width: 1260px;
     margin: 0 auto;
-    padding: 0 30px;*/
+    padding: 0 30px;
   }
 
   .page-header-container {
@@ -3334,7 +3271,6 @@ body {
   }
   .logo .large {
     display: block;
-    width: 135px;
   }
 }
 /* ============================================ *
@@ -3368,15 +3304,10 @@ body {
 
 a.skip-link {
   text-decoration: none;
-  background: #54b548;
-  color:white;
 }
 
 .skip-link:not(.skip-active):hover {
   opacity: 0.8;
-  text-decoration: none;
-  font-weight: bold;
-  color: whitesmoke;
 }
 
 @media only screen and (max-width: 770px) {
@@ -3477,16 +3408,12 @@ a.skip-link {
 }
 .account-cart-wrapper {
   position: absolute;
-  top: 120px;
+  top: 0px;
   right: 0px;
-  margin-left: 461px;
-  z-index: 9;
-  color: white;
 }
 @media only screen and (max-width: 770px) {
   .account-cart-wrapper {
     position: static;
-    margin-left: 0;
   }
 }
 
@@ -3533,7 +3460,7 @@ a.skip-link {
   #header-nav {
     display: block;
     /* Force visibility */
-    /*border-bottom: 1px solid #ededed;*/
+    border-bottom: 1px solid #ededed;
   }
 }
 /* ============================================ *
@@ -3569,7 +3496,7 @@ a.skip-link {
 }
 
 .nav-primary li.level0 > a {
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
 }
 
 /* ============================================ *
@@ -3635,12 +3562,9 @@ a.skip-link {
     /* Class for js to add briefly to evaluate element positioning. */
     /* Correct menus that will hang off the page (class added by js) */
     /* Level 1+ */
-    position: absolute;
-    top: 30px;
-    left: 164px;
   }
   .nav-primary a.level0 {
-    padding: 0 6px;
+    padding: 0 25px;
   }
   .nav-primary li.level0,
   .nav-primary a.level0 {
@@ -3666,13 +3590,13 @@ a.skip-link {
     z-index: 10;
     width: 250px;
     padding-left: 10px;
-    /*padding-right: 10px;*/
+    padding-right: 10px;
     display: none;
     /* Hide until displayed. */
   }
   .nav-primary li.level1 ul {
-    left: 238px;
-    top: -32px;
+    left: 60px;
+    top: 15px;
   }
   .nav-primary li.level0 ul.level0.position-test {
     display: block;
@@ -3733,11 +3657,11 @@ a.skip-link {
 @media only screen and (min-width: 771px) {
   #header-search {
     display: block;
-    /*position: absolute;
+    position: absolute;
     top: 55px;
     right: 0;
     width: 25%;
-    height: 50px;*/
+    height: 50px;
     padding: 0;
   }
 }
@@ -8881,16 +8805,14 @@ div.paypal-logo span > img {
   display: block;
   width: 100%;
   margin: 10px 0;
-  /*border: 1px solid #ededed;*/
-  height: 472px;
+  border: 1px solid #ededed;
 }
 .slideshow-container .slideshow {
   width: 100%;
   padding: 0;
-  /*position: relative;*/
+  position: relative;
   margin: 0;
-  /*border: 10px solid #FFFFFF;*/
-  height: 472px;
+  border: 10px solid #FFFFFF;
 }
 .slideshow-container .slideshow > li {
   position: absolute;
@@ -8900,14 +8822,10 @@ div.paypal-logo span > img {
   padding: 0;
   display: block;
   margin: 0;
-  height: 472px;
-  max-height: 472px;
 }
 .slideshow-container .slideshow > li:first-child {
   position: static;
   z-index: 100;
-  height: 472px;
-  width: 100%;
 }
 .slideshow-container .slideshow > li img {
   max-width: 100%;
