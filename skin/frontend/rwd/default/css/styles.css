@@ -29,6 +29,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
+<<<<<<< HEAD
 .header-content {
   max-width: 1170px;
 }
@@ -72,6 +73,8 @@
   position: relative;
 }
 
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 article,
 aside,
 details,
@@ -1335,9 +1338,15 @@ a.button:hover {
 .main-container,
 .footer-container {
   position: relative;
+<<<<<<< HEAD
   /*max-width: 1260px;
   margin: 0 auto;
   padding: 15px;*/
+=======
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 15px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 .main-container:after,
 .footer-container:after {
@@ -1349,7 +1358,11 @@ a.button:hover {
 @media only screen and (min-width: 480px) {
   .main-container,
   .footer-container {
+<<<<<<< HEAD
     /*padding: 30px;*/
+=======
+    padding: 30px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
 }
 .footer-container {
@@ -1542,6 +1555,7 @@ a.button:hover {
     margin: 0 auto;
     padding: 0 30px;
   }
+<<<<<<< HEAD
   /*#navigation-large{
     display: table-cell;
     background: black;
@@ -1558,6 +1572,8 @@ a.button:hover {
     display: block;
     background: green;
   }*/
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 /* -------------------------------------------- *
  * Global Site Notice
@@ -3223,9 +3239,15 @@ body {
  * ============================================ */
 @media only screen and (min-width: 771px) {
   .page-header {
+<<<<<<< HEAD
     /*max-width: 1260px;
     margin: 0 auto;
     padding: 0 30px;*/
+=======
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 30px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
 
   .page-header-container {
@@ -3330,7 +3352,10 @@ body {
   }
   .logo .large {
     display: block;
+<<<<<<< HEAD
     width: 135px;
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
 }
 /* ============================================ *
@@ -3364,15 +3389,21 @@ body {
 
 a.skip-link {
   text-decoration: none;
+<<<<<<< HEAD
   background: #54b548;
   color: white;
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 
 .skip-link:not(.skip-active):hover {
   opacity: 0.8;
+<<<<<<< HEAD
   text-decoration: none;
   font-weight: bold;
   color: whitesmoke;
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 
 @media only screen and (max-width: 770px) {
@@ -3473,16 +3504,24 @@ a.skip-link {
 }
 .account-cart-wrapper {
   position: absolute;
+<<<<<<< HEAD
   top: 120px;
   right: 0px;
   margin-left:461px;
   z-index: 9;
   color: white;
+=======
+  top: 0px;
+  right: 0px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 @media only screen and (max-width: 770px) {
   .account-cart-wrapper {
     position: static;
+<<<<<<< HEAD
     margin-left: 0;
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
 }
 
@@ -3529,7 +3568,11 @@ a.skip-link {
   #header-nav {
     display: block;
     /* Force visibility */
+<<<<<<< HEAD
     /*border-bottom: 1px solid #ededed;*/
+=======
+    border-bottom: 1px solid #ededed;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
 }
 /* ============================================ *
@@ -3565,7 +3608,11 @@ a.skip-link {
 }
 
 .nav-primary li.level0 > a {
+<<<<<<< HEAD
   /*text-transform: uppercase;*/
+=======
+  text-transform: uppercase;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 
 /* ============================================ *
@@ -3631,12 +3678,18 @@ a.skip-link {
     /* Class for js to add briefly to evaluate element positioning. */
     /* Correct menus that will hang off the page (class added by js) */
     /* Level 1+ */
+<<<<<<< HEAD
     position:absolute;
     top:30px;
     left: 164px;
   }
   .nav-primary a.level0 {
     padding: 0 6px;
+=======
+  }
+  .nav-primary a.level0 {
+    padding: 0 25px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
   .nav-primary li.level0,
   .nav-primary a.level0 {
@@ -3662,13 +3715,22 @@ a.skip-link {
     z-index: 10;
     width: 250px;
     padding-left: 10px;
+<<<<<<< HEAD
     /*padding-right: 10px;*/
+=======
+    padding-right: 10px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
     display: none;
     /* Hide until displayed. */
   }
   .nav-primary li.level1 ul {
+<<<<<<< HEAD
     left: 238px;
     top: -32px;
+=======
+    left: 60px;
+    top: 15px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   }
   .nav-primary li.level0 ul.level0.position-test {
     display: block;
@@ -3729,11 +3791,19 @@ a.skip-link {
 @media only screen and (min-width: 771px) {
   #header-search {
     display: block;
+<<<<<<< HEAD
     /*position: absolute;
     top: 55px;
     right: 0;
     width: 25%;
     height: 50px;*/
+=======
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 25%;
+    height: 50px;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
     padding: 0;
   }
 }
@@ -8877,16 +8947,26 @@ div.paypal-logo span > img {
   display: block;
   width: 100%;
   margin: 10px 0;
+<<<<<<< HEAD
   /*border: 1px solid #ededed;*/
   height: 472px;
+=======
+  border: 1px solid #ededed;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 .slideshow-container .slideshow {
   width: 100%;
   padding: 0;
+<<<<<<< HEAD
   /*position: relative;*/
   margin: 0;
   /*border: 10px solid #FFFFFF;*/
   height: 472px;
+=======
+  position: relative;
+  margin: 0;
+  border: 10px solid #FFFFFF;
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
   
 }
 .slideshow-container .slideshow > li {
@@ -8897,20 +8977,29 @@ div.paypal-logo span > img {
   padding: 0;
   display: block;
   margin: 0;
+<<<<<<< HEAD
   height: 472px;
   max-height: 472px;
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 .slideshow-container .slideshow > li:first-child {
   position: static;
   z-index: 100;
+<<<<<<< HEAD
   height: 472px;
   width: 100%;
   /**/
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 .slideshow-container .slideshow > li img {
   max-width: 100%;
   width: 100%;
+<<<<<<< HEAD
   /**/
+=======
+>>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 }
 
 .slideshow-pager {
