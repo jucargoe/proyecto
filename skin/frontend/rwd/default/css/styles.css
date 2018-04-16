@@ -8910,6 +8910,7 @@ div.paypal-logo span > img {
 .slideshow-container .slideshow > li img {
   max-width: 100%;
   width: 100%;
+  /**/
 }
 
 .slideshow-pager {

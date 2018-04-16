@@ -27,8 +27,7 @@
 -->
 <layout version="0.1.0">
     <!--
-    Default layout,
-    loads most of the pages
+    Default layout,loads most of the pages
     -->
 
     <default translate="label" module="page">
