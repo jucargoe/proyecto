@@ -1,0 +1,41 @@
+<div class="footer-container">
+    <div class="footer">
+        <div class="links">
+	<div class="block-title">
+		<strong><span>Company</span></strong>
+	</div>
+	<ul>
+		<li><a href="http://proyecto.loc/?___SID=Uabout-magento-demo-store/">About Us</a></li>
+		<li><a href="http://proyecto.loc/?___SID=Ucontacts/">Contact Us</a></li>
+		<li><a href="http://proyecto.loc/?___SID=Ucustomer-service/">Customer Service</a></li>
+		<li><a href="http://proyecto.loc/?___SID=Uprivacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+	</ul>
+</div><div class="links">
+        <div class="block-title"><strong><span>Quick Links</span></strong></div>
+        <ul>
+                                    <li class="first" ><a href="http://proyecto.loc/catalog/seo_sitemap/category/?___SID=U" title="Site Map" >Site Map</a></li>
+                                                <li ><a href="http://proyecto.loc/catalogsearch/term/popular/?___SID=U" title="Search Terms" >Search Terms</a></li>
+                                                <li class=" last" ><a href="http://proyecto.loc/catalogsearch/advanced/?___SID=U" title="Advanced Search" >Advanced Search</a></li>
+                        </ul>
+</div>
+<div class="links">
+        <div class="block-title"><strong><span>Account</span></strong></div>
+        <ul>
+                                    <li class="first" ><a href="http://proyecto.loc/customer/account/?___SID=U" title="My Account" >My Account</a></li>
+                                                <li class=" last" ><a href="http://proyecto.loc/sales/guest/form/?___SID=U" title="Orders and Returns" >Orders and Returns</a></li>
+                        </ul>
+</div>
+<div class="links social-media">
+	<div class="block-title">
+		<strong><span>Connect With Us</span></strong>
+	</div>
+	<ul>
+		<li><a href="#"><em class="facebook"></em>Facebook</a></li>
+		<li><a href="#"><em class="twitter"></em>Twitter</a></li>
+		<li><a href="#"><em class="youtube"></em>YouTube</a></li>
+		<li><a href="#"><em class="pinterest"></em>Pinterest</a></li>
+		<li class="last"><a href="#"><em class="rss"></em>RSS</a></li>
+	</ul>
+</div>        <address class="copyright">&copy; 2018 Juan Carlos Gómez</address>
+    </div>
+</div>
