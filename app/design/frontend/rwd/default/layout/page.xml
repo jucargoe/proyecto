@@ -39,10 +39,9 @@
         <block type="page/html" name="root" output="toHtml" template="page/3columns.phtml">
 
             <block type="page/html_head" name="head" as="head">
-<<<<<<< HEAD
+
                 <action method="addJs"><script>lib/jquery/bootstrap/js/bootstrap.js</script></action>
-=======
->>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
+
                 <action method="addJs"><script>prototype/prototype.js</script></action>
                 <action method="addJs"><script>lib/jquery/jquery-1.12.0.min.js</script></action>
                 <action method="addJs"><script>lib/jquery/noconflict.js</script></action>
@@ -84,12 +83,10 @@
                 <!-- Add stylesheets with media queries for use by modern browsers -->
                 <action method="addItem"><type>skin_css</type><name>css/styles.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
                 <action method="addItem"><type>skin_css</type><name>css/madisonisland.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
-<<<<<<< HEAD
+
                 <action method="addItem"><type>skin_css</type><name>css/css-bootstrap/bootstrap.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
                 <action method="addItem"><type>skin_css</type><name>css/css-bootstrap/bootstrap-grid.css</name><params/><if><![CDATA[<!--[if (gte IE 9) | (IEMobile)]><!-->]]></if></action>
 
-=======
->>>>>>> 988d2b02e397c8b95009b0549503d42d609e0705
 
                 <!-- Sets viewport meta tag using text block -->
                 <block type="core/text" name="head.viewport">
