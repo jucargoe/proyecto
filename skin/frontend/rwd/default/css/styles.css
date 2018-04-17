@@ -3235,6 +3235,7 @@ body {
 .header-language-container,
 .page-header {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  background: #54b548;
 }
 
 /* ============================================ *
@@ -8908,8 +8909,9 @@ div.paypal-logo span > img {
   /**/
 }
 .slideshow-container .slideshow > li img {
-  max-width: 100%;
+
   width: 100%;
+  height:472px;
   /**/
 }
 
